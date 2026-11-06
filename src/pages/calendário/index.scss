@@ -1,0 +1,237 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.App{
+  .calendario{
+    display: flex;
+    gap: 2vw;
+    padding: 5vw 5vw;
+
+    nav{
+        button{
+            width: 7.5vw;
+            height: 3vw;
+            font-size: 1.1vw;
+            padding: 0.5vw;
+            border-radius: 0.6vw;
+            background-color: #5fa3fb;
+            color: #ffff;
+            border: none;
+        }
+
+        div{
+            margin-top: 0.5vw;
+            display: flex;
+            gap: 0.5vw;
+        }
+    }
+
+    main{
+        display: flex;
+        justify-content: center; 
+        margin: 3vw;
+        
+        .div{
+            background-color: white;
+            width: 40vw;
+            padding: 0vw 2vw 2.5vw 2vw;
+            border-radius: 1vw;
+
+            h1{
+                text-align: center;
+                margin-top: 2vw;
+                font-size: 5vw;
+                color: #012f6b;
+            }
+            
+            header{
+                display: flex;
+                gap: 1vw;
+                justify-content: center;
+                
+                b{
+                    margin-top: 1vw;
+                    font-size: 2.5vw;
+                    color: #012f6b;
+                    text-align: center;
+                }
+
+                section{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1vw;
+
+                    button{
+                        width: 4vw;
+                        height: 4vw;
+                        font-size: 1.5vw;
+                        border-radius: 1vw;
+                        border: none;
+                        background-color: white;
+                        color: #012f6b;
+                    }
+
+                    button:hover{
+                        color: #ffff;
+                        background-color: #5fa3fb;
+                    }
+                }
+            }
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 2vw;
+            font-size: 5vw;
+            color: #012f6b;
+        }
+        
+        header{
+            display: flex;
+            gap: 1vw;
+            justify-content: center;
+            
+            b{
+                margin-top: 1vw;
+                font-size: 2.5vw;
+                color: #012f6b;
+            }
+
+            section{
+                display: flex;
+                flex-direction: column;
+                gap: 1vw;
+
+                button{
+                    width: 4vw;
+                    height: 4vw;
+                    font-size: 1.5vw;
+                    border-radius: 1vw;
+                    border: none;
+                    background-color: white;
+                    color: #012f6b;
+                }
+
+                button:hover{
+                    color: #ffff;
+                    background-color: #cfe4ff;
+                }
+            }
+        }
+    }
+
+    .conteiner1{
+        background-color: #cfe4ff;
+        height: 60.5vw;
+        padding: 2.5vw 5vw;
+        border-radius: 1vw;
+    }
+
+    .conteiner2{
+        background-color: #cfe4ff;
+        height: 60.5vw;
+        border-radius: 1vw;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+
+        p{
+            text-align: center;
+            color: #012f6b;
+            font-size: 1.1vw;
+        }
+        .div{
+            img{
+                width: 4vw;
+            }
+
+            display: flex;
+            align-items: center;
+            gap: 0.5vw;
+            padding: 2vw 1.5vw ;
+        }
+
+        h2{
+            font-size: 3vw;
+            color: #012f6b;
+        }
+
+        main{
+            background-color: white;
+            border-radius: 1vw;
+            margin-top: 4vw;
+            padding: 1vw;
+            height: 44vw;
+            
+            section{
+                b{
+                    color: #012f6b;
+                    font-size: 1.7vw;
+                }
+                
+                button{
+                    font-weight: 700;
+                    color: white;
+                    background-color: #012f6b;
+                    font-size: 1vw;
+                    border: none;
+                    padding: 1vw;
+                    width: 3vw;
+                    border-radius: 9vw;
+                }
+                
+                div{
+                    display: flex;
+                    gap: 1vw;
+                    align-items: center;
+                }
+
+                input{
+                    width: 20vw;
+                    outline: none;
+                    font-size: 1.3vw;
+                    padding: 1vw;
+                    border-radius: 1vw;
+                    margin-top: 1.3vw;
+                    border: none;
+                    background-color: #cfe4ff;
+                }
+            }
+
+            .ul{
+                margin-top: 2vw;
+                display: flex;
+                flex-direction: column;
+
+                ul{
+                    background-color: #cfe4ff;
+                    width: 20vw;
+                    border-radius: 1VW;
+                    height: 27vw;
+                    margin-top: 1vw;
+                    list-style: none;
+                    padding: 0vw 1vw;
+
+                    li{
+                        display: flex;
+                        align-items: center;
+                        gap: 0.5vw;
+                        margin-top: 1vw;
+
+                        button{
+                            font-weight: 400;
+                            border-radius: 0.2vw;
+                            padding: 0.1vw;
+                            width: 1.5vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+}
